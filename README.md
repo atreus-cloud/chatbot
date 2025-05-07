@@ -13,6 +13,9 @@ Use unit tests for parts (like context builder) and simulate full conversations 
 responses.
 4. List of Potential Edge Cases
 ● Unanswered Questions: Reply with a fallback message like "I don't have that info."
+
 ● Ambiguous Queries: Ask follow-up questions to clarify.
+
 ● Multiple Questions at Once: Split and answer both parts separately.
+
 ● Too Much Context: Use only the last few messages to keep responses focused.
